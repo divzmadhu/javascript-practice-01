@@ -2,14 +2,14 @@
 let age = 15;
 
 
-// Example Simple if statement
+// 1. Example Simple if statement
  
 // if (age >= 18) {
 //   console.log("You are eligible to vote.");
 // }
 // console.log('done');
 
-// Example if else statement
+// 2. Example if else statement
 
 // if (age >= 18) {
 //   console.log("You are eligible to vote.");
@@ -17,7 +17,7 @@ let age = 15;
 //   console.log("You are not old enough to vote.");
 // }
 
-// Example else if Statement 
+// 3. Example else if Statement 
 
 // let temperature = 25;
  
@@ -29,7 +29,7 @@ let age = 15;
 //   console.log("The weather is just right.");
 // }
 
-// Example switch, break, and continue Statement 
+// 4. Example switch, break, and continue Statement 
 
 // let choice = prompt("Choose an option: 1. Start 2. Settings 3. Exit");
  
@@ -47,16 +47,28 @@ let age = 15;
 //     console.log("Invalid option, please try again.");
 // }
 
-// Example Using if...else instead of switch, break, and continue Statement 
+// 5. Example Using if...else instead of switch, break, and continue Statement 
 
-let choice = prompt("Choose an option: 1. Start 2. Settings 3. Exit");
+// let choice = prompt("Choose an option: 1. Start 2. Settings 3. Exit");
  
-if (choice === '1') {
-  console.log("Starting the game...");
-} else if (choice === '2') {
-  console.log("Opening settings...");
-} else if (choice === '3') {
-  console.log("Exiting the game...");
-} else {
-  console.log("Invalid option, please try again.");
+// if (choice === '1') {
+//   console.log("Starting the game...");
+// } else if (choice === '2') {
+//   console.log("Opening settings...");
+// } else if (choice === '3') {
+//   console.log("Exiting the game...");
+// } else {
+//   console.log("Invalid option, please try again.");
+// }
+
+// Example break Statement:- Breaking Out of a Loop
+
+let numbers = [1, 2, 3, 4, 5];
+ 
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] === 3) {
+    console.log("Found 3! Exiting the loop.");
+    break;  // Exit the loop when 3 is found
+  }
+  console.log(numbers[i]);
 }
