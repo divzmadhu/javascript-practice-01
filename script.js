@@ -31,18 +31,32 @@ let age = 15;
 
 // Example switch, break, and continue Statement 
 
+// let choice = prompt("Choose an option: 1. Start 2. Settings 3. Exit");
+ 
+// switch (choice) {
+//   case '1':
+//     console.log("Starting the game...");
+//     break;
+//   case '2':
+//     console.log("Opening settings...");
+//     break;
+//   case '3':
+//     console.log("Exiting the game...");
+//     break;
+//   default:
+//     console.log("Invalid option, please try again.");
+// }
+
+// Example Using if...else instead of switch, break, and continue Statement 
+
 let choice = prompt("Choose an option: 1. Start 2. Settings 3. Exit");
  
-switch (choice) {
-  case '1':
-    console.log("Starting the game...");
-    break;
-  case '2':
-    console.log("Opening settings...");
-    break;
-  case '3':
-    console.log("Exiting the game...");
-    break;
-  default:
-    console.log("Invalid option, please try again.");
+if (choice === '1') {
+  console.log("Starting the game...");
+} else if (choice === '2') {
+  console.log("Opening settings...");
+} else if (choice === '3') {
+  console.log("Exiting the game...");
+} else {
+  console.log("Invalid option, please try again.");
 }
