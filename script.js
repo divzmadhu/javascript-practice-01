@@ -61,14 +61,36 @@ let age = 15;
 //   console.log("Invalid option, please try again.");
 // }
 
-// Example break Statement:- Breaking Out of a Loop
+// 6. Example break Statement:- Breaking Out of a Loop
 
-let numbers = [1, 2, 3, 4, 5];
+// let numbers = [1, 2, 3, 4, 5];
  
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] === 3) {
-    console.log("Found 3! Exiting the loop.");
-    break;  // Exit the loop when 3 is found
-  }
-  console.log(numbers[i]);
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] === 3) {
+//     console.log("Found 3! Exiting the loop.");
+//     break;  // Exit the loop when 3 is found
+//   }
+//   console.log(numbers[i]);
+// }
+
+
+// 7. Example: Continue :- Skipping Certain Values with continue
+
+// for (let i = 1; i <= 5; i++) {
+//   if (i % 2 === 0) continue;  // Skip even numbers
+//   console.log(i);  // Only odd numbers will be printed
+// }
+
+// Logical Operators
+// 8. Example: AND Operator (&&) :
+
+let isLoggedIn = true;
+let isAdmin = true;
+ 
+if (isLoggedIn && isAdmin) {
+  console.log("Welcome, admin.");
 }
+
+
+
+
